@@ -36,6 +36,8 @@ model.fit(X_train_scaled, y_train)
 y_pred = model.predict(X_test_scaled)
 print("Classification Report:\n")
 print(classification_report(y_test, y_pred))
+from sklearn.metrics import accuracy_score
+print("Accuracy:", accuracy_score(y_test, y_pred))
  
 # Display confusion matrix
 cm = confusion_matrix(y_test, y_pred)
