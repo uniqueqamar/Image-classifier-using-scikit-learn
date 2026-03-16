@@ -47,3 +47,6 @@ plt.ylabel("Actual")
 plt.colorbar()
 plt.tight_layout()
 plt.show()
+
+plt.savefig("sample_digits.png")
+plt.savefig("confusion_matrix.png")
