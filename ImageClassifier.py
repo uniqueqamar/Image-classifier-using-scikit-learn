@@ -45,8 +45,9 @@ plt.title("Confusion Matrix")
 plt.xlabel("Predicted")
 plt.ylabel("Actual")
 plt.colorbar()
+plt.savefig("sample_digits.png")
+plt.savefig("confusion_matrix.png")
 plt.tight_layout()
 plt.show()
 
-plt.savefig("sample_digits.png")
-plt.savefig("confusion_matrix.png")
+
